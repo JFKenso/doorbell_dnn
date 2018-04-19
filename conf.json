@@ -1,0 +1,21 @@
+{
+	"show_video": false,
+	"motion_enabled": true,
+	"use_dropbox": false,
+	"dropbox_key": "YOUR_DROPBOX_KEY",
+	"dropbox_secret": "YOUR_DROPBOX_SECRET",
+	"dropbox_base_path": "YOUR_DROPBOX_APP_PATH",
+	"min_upload_seconds": 0.5,
+	"min_motion_frames": 5,
+	"camera_warmup_time": 2.5,
+	"delta_thresh": 5,
+	"resolution": [640, 480],
+	"fps": 16,
+	"min_area": 2500,
+	"cascPath": "/usr/local/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml",
+	"msScaleFactor": 1.2,
+	"msMinNeighbors": 4,
+	"msMinSize": 30,
+	"doorbellSound": "/home/pi/wavs/cow.wav",
+	"motionYThreshold": 130
+}
